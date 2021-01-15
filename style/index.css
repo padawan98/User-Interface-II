@@ -55,7 +55,7 @@ header p
 {
     width:75%;
     height:auto;
-    padding:20px 10%;
+    margin:20px 10%;
     text-align:center;
     /* justify-content:center; */
 
@@ -63,33 +63,53 @@ header p
 .exampleprojects
 {
     display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    margin:20px 10%;;
 }
 
 .exampleprojects img
 {
     width:100%;
 }
+
+.exampleprojects a
+{
+    /* text-align:center; */
+    color:#b0b0b0;
+    text-decoration: none;
+}
+
 .imgholder
 {
     /* display:flex; */
     /* flex-direction:row; */
-    width:33%;
+    width:20%;
     /* height:auto; */
     /* float:left; */
     /* display:inline-block; */
 }
 
-/* .imgholder img
+h3
 {
-    width:100%;
-} */
+    text-align:center;
+    margin:70px;
+}
 
-/* .imgs h3
+footer
 {
-    display:inline-block;
-    text-align: center;
-} */
+    border-top:2px solid #b0b0b0;
+    margin: 50px;
+    text-align:center;
+}
 
-/* footer{
-    display:block;
-} */
+footer a
+{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    color:#b0b0b0;
+    border:1px solid #b0b0b0;
+    border-radius:50px;
+    margin:20px;
+    padding:30px 15px;
+}
