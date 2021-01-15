@@ -1,1 +1,115 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+*
+{
+    /* background-color:#ffe7e6; */
+    background-color:#fff0f4;
+}
+
+h2, h3, p
+{
+    color:#b0b0b0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1
+{
+    color:#b0b0b0;
+    font-family: 'Kanit', sans-serif;
+    border-bottom:2px solid #b0b0b0; 
+    padding-bottom:20px;
+}
+
+header
+{
+    text-align: center;
+}
+
+header nav
+{
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+
+}
+
+header nav a
+{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    color:#b0b0b0;
+    border:1px solid #b0b0b0;
+    border-radius:50px;
+    margin:20px;
+    padding:5px 15px;
+}
+header p
+{
+    margin:50px 20%;
+}
+
+.bigimg img
+{
+    width:75%;
+    height:auto;
+    margin:20px 10%;
+    text-align:center;
+    /* justify-content:center; */
+
+}
+.exampleprojects
+{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    margin:20px 10%;;
+}
+
+.exampleprojects img
+{
+    width:100%;
+}
+
+.exampleprojects a
+{
+    /* text-align:center; */
+    color:#b0b0b0;
+    text-decoration: none;
+}
+
+.imgholder
+{
+    /* display:flex; */
+    /* flex-direction:row; */
+    width:20%;
+    /* height:auto; */
+    /* float:left; */
+    /* display:inline-block; */
+}
+
+h3
+{
+    text-align:center;
+    margin:70px;
+}
+
+footer
+{
+    border-top:2px solid #b0b0b0;
+    margin: 50px;
+    text-align:center;
+}
+
+footer a
+{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    color:#b0b0b0;
+    border:1px solid #b0b0b0;
+    border-radius:50px;
+    margin:20px;
+    padding:30px 15px;
+}
